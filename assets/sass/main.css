@@ -80,4 +80,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@media only screen and (min-width: 576px) {
+  h1 {
+    color: red;
+  }
+}
 /*# sourceMappingURL=main.css.map */
