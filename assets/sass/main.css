@@ -1,3 +1,7 @@
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
 /* Box sizing rules */
 *,
 *::before,
@@ -36,6 +40,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: #efefef;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -78,6 +83,27 @@ select {
     -webkit-transition-duration: 0.01ms !important;
             transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (min-width: 576px) {
+  header h1 {
+    text-align: center;
+  }
+  main {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    margin: 0 auto;
+    width: 68%;
   }
 }
 /*# sourceMappingURL=main.css.map */
