@@ -4,6 +4,7 @@
 @import "base/reset";
 @import "base/typography";
 
+@import "layout/layout";
 @import "layout/navigation";
 @import "layout/grid";
 @import "layout/header";
@@ -11,6 +12,7 @@
 @import "layout/sidebar";
 @import "layout/forms";
 @import "layout/mediaQueries";
+
 @import "components/buttons";
 @import "components/carousel";
 @import "components/cover";

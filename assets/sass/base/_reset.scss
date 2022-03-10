@@ -1,3 +1,4 @@
+@import "../abstracts/variables";
 /* Box sizing rules */
 *,
 *::before,
@@ -27,6 +28,7 @@ blockquote,
 dl,
 dd {
     margin: 0;
+    color: $rich-black-fogra-29;
 }
 
 /* Set core body defaults */
@@ -35,7 +37,6 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    background-color: rgb(239, 239, 239);
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */

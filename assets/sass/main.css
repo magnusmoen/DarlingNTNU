@@ -2,6 +2,10 @@
 /* SCSS HSL */
 /* SCSS RGB */
 /* SCSS Gradient */
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
 /* Box sizing rules */
 *,
 *::before,
@@ -32,6 +36,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  color: #001a23;
 }
 
 /* Set core body defaults */
@@ -40,7 +45,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: #efefef;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -86,8 +90,20 @@ select {
   }
 }
 
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
 * {
   font-family: "Open Sans", sans-serif;
+}
+
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+body {
+  background-color: #e8f1f2;
 }
 
 @media only screen and (min-width: 576px) {
