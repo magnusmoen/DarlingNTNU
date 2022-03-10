@@ -1,0 +1,26 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "abstracts/_variables.scss",
+        "abstracts/_mixins.scss",
+        "base/_reset.scss",
+        "base/_typography.scss",
+        "layout/_navigation.scss",
+        "layout/_grid.scss",
+        "layout/_header.scss",
+        "layout/_footer.scss",
+        "layout/_sidebar.scss",
+        "layout/_forms.scss",
+        "components/_buttons.scss",
+        "components/_carousel.scss",
+        "components/_cover.scss",
+        "components/_dropdown.scss",
+        "pages/_home.scss",
+        "pages/_contact.scss",
+        "themes/_theme.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
