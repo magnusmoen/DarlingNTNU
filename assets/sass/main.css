@@ -2,98 +2,14 @@
 /* SCSS HSL */
 /* SCSS RGB */
 /* SCSS Gradient */
-/* SCSS HEX */
-/* SCSS HSL */
-/* SCSS RGB */
-/* SCSS Gradient */
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/* Remove default padding */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-  color: #001a23;
-}
-
-/* Set core body defaults */
 body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  background-color: #e8f1f2;
 }
 
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
+#thumbNail {
+  margin: 0 auto;
 }
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    -webkit-transition-duration: 0.01ms !important;
-            transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* SCSS HEX */
-/* SCSS HSL */
-/* SCSS RGB */
-/* SCSS Gradient */
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -102,24 +18,4 @@ select {
 /* SCSS HSL */
 /* SCSS RGB */
 /* SCSS Gradient */
-body {
-  background-color: #e8f1f2;
-}
-
-@media only screen and (min-width: 576px) {
-  header h1 {
-    text-align: center;
-  }
-  main {
-    margin: 0 auto;
-    width: 80%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  main {
-    margin: 0 auto;
-    width: 68%;
-  }
-}
 /*# sourceMappingURL=main.css.map */
