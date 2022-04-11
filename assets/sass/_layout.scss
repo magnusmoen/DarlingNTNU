@@ -3,11 +3,17 @@ body {
     background-color: $alice-blue;
 }
 main {
-    height: 100vh;
+    height: fit-content;
 }
 #thumbNail {
     margin: 0 auto;
 }
+footer {
+    height: fit-content;
+}
 .navbar-brand img {
     height: 60px;
+}
+article {
+    margin-top: 50px;
 }

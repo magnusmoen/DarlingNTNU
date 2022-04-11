@@ -1,13 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AEAA,cAAc;AAOd,cAAc;AAOd,cAAc;AAOd,mBAAmB;ADpBnB,AAAA,IAAI,CAAC;EACD,gBAAgB,ECaP,OAAsB;CDZlC;;AACD,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,KAAK;CAChB;;AACD,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,MAAM;CACjB;;AACD,AAAA,aAAa,CAAC,GAAG,CAAC;EACd,MAAM,EAAE,IAAI;CACf;;AEZD,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,uBAAuB;CACvC;;ADFD,cAAc;AAOd,cAAc;AAOd,cAAc;AAOd,mBAAmB",
-    "sources": [
-        "main.scss",
-        "_layout.scss",
-        "_variables.scss",
-        "_typography.scss",
-        "_variables.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["_variables.scss","_layout.scss","main.css","_typography.scss"],"names":[],"mappings":"AAAA,aAAA;AAOA,aAAA;AAOA,aAAA;AAOA,kBAAA;ACpBA;EACI,oCDaS;AETb;;ADFA;EACI,2BAAA;EAAA,wBAAA;EAAA,mBAAA;ACKJ;;ADHA;EACI,cAAA;ACMJ;;ADJA;EACI,2BAAA;EAAA,wBAAA;EAAA,mBAAA;ACOJ;;ADLA;EACI,YAAA;ACQJ;;ADNA;EACI,gBAAA;ACSJ;;AC1BA;EACI,oCAAA;EACA,gBAAA;AD6BJ;;AF/BA,aAAA;AAOA,aAAA;AAOA,aAAA;AAOA,kBAAA","file":"main.css"}

@@ -3,27 +3,39 @@
 /* SCSS RGB */
 /* SCSS Gradient */
 body {
-  background-color: #e8f1f2;
+  background-color: rgb(232, 241, 242);
 }
 
 main {
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 #thumbNail {
   margin: 0 auto;
 }
 
+footer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .navbar-brand img {
   height: 60px;
 }
 
+article {
+  margin-top: 50px;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
+  font-size: large;
 }
 
 /* SCSS HEX */
 /* SCSS HSL */
 /* SCSS RGB */
-/* SCSS Gradient */
-/*# sourceMappingURL=main.css.map */
+/* SCSS Gradient *//*# sourceMappingURL=main.css.map */
