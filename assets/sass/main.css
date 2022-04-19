@@ -35,6 +35,10 @@ article {
     padding: 0 20%;
   }
 }
+#members-list {
+  margin-top: 50px;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
   font-size: large;
