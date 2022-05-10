@@ -1,22 +1,25 @@
-/* SCSS HEX */
 /* SCSS HSL */
-/* SCSS RGB */
-/* SCSS Gradient */
 body {
-  background-color: rgb(232, 241, 242);
+  background-color: hsl(186deg, 28%, 93%);
 }
 
 main {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  min-height: 100vh;
 }
 
 #thumbNail {
   margin: 0 auto;
 }
 
+header {
+  margin-bottom: 5vh;
+}
+
 footer {
+  margin-top: 10vh;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -44,7 +47,4 @@ article {
   font-size: large;
 }
 
-/* SCSS HEX */
-/* SCSS HSL */
-/* SCSS RGB */
-/* SCSS Gradient *//*# sourceMappingURL=main.css.map */
+/* SCSS HSL *//*# sourceMappingURL=main.css.map */
