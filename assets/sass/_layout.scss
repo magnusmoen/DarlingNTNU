@@ -1,27 +1,41 @@
 @import "./variables";
+
 body {
     background-color: $alice-blue;
 }
+
 main {
     height: fit-content;
+    min-height: 100vh;
 }
+
 #thumbNail {
     margin: 0 auto;
 }
+
+header {
+    margin-bottom: 5vh;
+}
+
 footer {
+    margin-top: 10vh;
     height: fit-content;
 }
+
 .navbar-brand img {
     height: 60px;
 }
+
 article {
     margin-top: 50px;
 }
+
 @media only screen and (min-width: 990px) {
     article {
         padding: 0 20%;
     }
 }
+
 #members-list {
     margin-top: 50px;
 }
