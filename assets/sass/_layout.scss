@@ -1,12 +1,15 @@
 @import "./variables";
 
 body {
-    background-color: $alice-blue;
+    background-color: $nemo;
 }
 
 main {
     height: fit-content;
     min-height: 100vh;
+}
+p {
+    max-width: 65ch;
 }
 
 #thumbNail {

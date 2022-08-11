@@ -1,6 +1,6 @@
 /* SCSS HSL */
 body {
-  background-color: hsl(186deg, 28%, 93%);
+  background-color: hsl(17deg, 100%, 62%);
 }
 
 main {
@@ -8,6 +8,10 @@ main {
   height: -moz-fit-content;
   height: fit-content;
   min-height: 100vh;
+}
+
+p {
+  max-width: 65ch;
 }
 
 #thumbNail {
@@ -43,8 +47,8 @@ article {
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
-  font-size: large;
+  font-family: "Helvetica", sans-serif;
+  font-size: medium;
 }
 
 /* SCSS HSL *//*# sourceMappingURL=main.css.map */
